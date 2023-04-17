@@ -1,5 +1,5 @@
 Feature: Game of war
-    This feature demonstrates the functionalitiy of Game of war using Deck of Cards API
+    This feature demonstrates the functionality of Game of war using Deck of Cards API
 
 Scenario: A winner is found within 100 turns
 Given that a standard deck of cards is provided

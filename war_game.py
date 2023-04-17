@@ -28,7 +28,7 @@ class WarGame:
         count = self.deck.remaining_cards
         self.player1.add_cards(self.deck.draw(num_cards=round(count/2)))
         self.player2.add_cards(self.deck.draw(num_cards=int(count/2)))
-        logger.info("Card has been delt")
+        logger.info("Card has been dealt")
 
     def play_a_turn(self):
         if self.round_num == 0:
@@ -78,7 +78,7 @@ class WarGame:
             logger.info("It's a tie!")
             self.status = GameStatus.Tie
         
-    def play_game(self, max_turns:int = 150):
+    def play_game(self, max_turns:int = 5000):
 
         while self.player1.remaining_cards > 0 and self.player2.remaining_cards > 0 \
             and self.round_num < max_turns:

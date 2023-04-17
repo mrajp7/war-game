@@ -27,8 +27,10 @@
 # Sample Runs:
 
 Game Settings: Deck of 52 Shuffled Cards
-- Run 1: [Round 84] Player 2 wins the game
+- Run 1: [Round 84] Player 2 wins the game [Test Passed]
 - Run 2: [Round 244] Player 1 wins the game
 - Run 3: [Round 346] Player 1 wins the game
 - Run 4: [Round 138] Player 1 wins the game
 - Run 5: [Round 367] Player 2 wins the game
+- Run 6: [Round 39] Player 2 wins the game [Test Passed]
+

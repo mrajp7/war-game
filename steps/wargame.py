@@ -29,10 +29,10 @@ def step_impl(context, d_type):
 def step_impl(context):
     context.wargame.deal_cards()
 
-@given(u'that a partial deck of cards {cards} is provided')
+@given(u'that a partial deck of cards "{cards}" is provided')
 def step_impl(context, cards):
     deck = Deck()
-    cards = cards.replace('"','').split(",")
+    cards = cards.split(",")
     deck.partial_deck(cards)
     context.deck = deck
     context.wargame = WarGame(context.deck, False)
