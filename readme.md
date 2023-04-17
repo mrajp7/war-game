@@ -34,3 +34,5 @@ Game Settings: Deck of 52 Shuffled Cards
 - Run 5: [Round 367] Player 2 wins the game
 - Run 6: [Round 39] Player 2 wins the game [Test Passed]
 
+# Sample Test Report
+![image](sample_behave_reports.jpg)
